@@ -1,0 +1,62 @@
+body{
+    background-color: #00ACC1;
+}
+.content{
+
+}
+.title{
+    font-family: 'Satisfy', cursive;
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    margin: 20px 0px;
+}
+.contact{
+    font-family: 'Ruda', sans-serif;
+    font-size: 26px;
+    margin: 0 auto;
+    color: #fff;
+    max-width: 500px;
+}
+.contact .header{
+    border: 1px solid #4DD0E1;
+    margin: 5px 0px;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.contact .user{
+    border: 1px solid #4DD0E1;
+    margin: 5px 0px;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 15px;
+}
+.contact .user a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact .user a:hover{
+    text-decoration: none;
+    color: #80DEEA;
+}
+
+.footer{
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+}
+.containing-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.centre-align {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
