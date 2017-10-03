@@ -1,4 +1,5 @@
-            function get(url,receiver) {
+<script>            
+function get(url,receiver) {
                 var xhr = new XMLHttpRequest();
                 xhr.onreadystatechange = function() {
                     if (this.readyState == 4 && this.status == 200) {
@@ -12,3 +13,4 @@
             }
             get("https://raw.githubusercontent.com/meisterlab/meisterlab.github.io/master/assets/current.md","meisterlab");
 
+</script>
