@@ -11,6 +11,6 @@ function get(url,receiver) {
                 xhr.send ();
                 return false;
             }
-            get("https://raw.githubusercontent.com/meisterlab/meisterlab.github.io/master/assets/current.md","meisterlab");
+            get("https://rawgit.com/meisterlab/meisterlab.github.io/master/assets/current.md","meisterlab");
 
 </script>
